@@ -274,7 +274,7 @@ textarea {
   font-size:18px;
   padding-top:5px;
   padding-bottom:5px;
-/*  transition: all 0.3s; */
+  transition: all 0.3s;
   margin: -4px 30%;
   font-weight:700;
 }
