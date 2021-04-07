@@ -268,7 +268,7 @@ textarea {
 
   text-align: center;
 
-  background:#CC6666;
+  background-color:#CC6666;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -282,7 +282,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-  background:#CC4949;
+  background-color:#CC4949;
 }
 
 /*基本文章フォント*/
@@ -350,11 +350,14 @@ textarea {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   text-align: center;
   width: 10%;
-  background:#CC6666;
+  background-color:#CC6666;
   border-radius:5px;
   border:0;
   color:white;
   font-size:15px;
   font-weight:700;
 }
-[type="back"]:hover { background:#CC4949; }
+
+[type="back"]:hover {
+   background:#CC4949;
+}
