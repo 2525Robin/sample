@@ -174,19 +174,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-/*
-h2 {
-  position: relative;
-  padding: 1.5rem;
-  text-align: center;
-  left: 25%;			
-  width: 50%;			
-  border: 2px solid #000;
-  background: #fff;
-  margin: 0;		
-  margin-bottom: 10px;
-}
-*/
 
 h2:before,
 h2:after {
