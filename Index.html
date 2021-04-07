@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>BoulangerieLeGARUEM</title>
+  <link rel="stylesheet" href="img/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+<!-- font awesome（アイコン） -->
+  <script src="https://kit.fontawesome.com/49a14135b8.js" crossorigin="anonymous"></script>
+
+
+<!-- google font（フォント） -->
+ <!-- 店名・ロゴ -->
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+
+ <!-- 日本語（飾り文字） -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+ <!-- 日本語（ゴシック丸） -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+
+
+<body>
+  <script src="img/jquery.min.js"></script>
+  <script src="img/popper.min.js"></script>
+  <script src="img/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+
+<!-- 固定ヘッダー -->
+<header>
+ <div class="h1_1">
+	Boulangerie<h1>Le GARUE M</h1>
+ </div>
+ 
+<!-- メニュー横並び -->
+ <nav>
+  <ul>
+	<li><a class="current" href="#">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li><a href="#menu">Menu</a></li>
+	<li><a href="#contact">Contact</a></li>
+  </ul>
+ </nav>
+
+</header>
+
+
+<!--	背景表示 -->
+ <div class="topback">
+
+<!--	店舗情報 -->
+  <b>〒143-0023 東京都大田区山王1-42-3
+	 <br>TEL/FAX <a href="tel:03-3776-0515">03-3776-0515</a>
+	 <br>OPEN/ 10:00 - 18:00
+	 <br>CLOSE/ 水曜日, 第1第3火曜日
+    <br>MAPS/ <a href="https://goo.gl/maps/yBoXNfLxBwDQh7u5A">GoogleMap</a>
+    </br>
+  </b>
+
+  <p class="black"></p>
+ </div>
+
+
+<!--	ロゴ -->
+ <div class="plate">
+  <p class="script"><span>Carefully</span></p>
+  <p class="shadow text1">Wellcome</p>
+  <p class="shadow text2">Le GARUE M</p>
+  <p class="script"><span>ingredients</span></p>
+ </div>
+
+<br><br><br></br>
+
+<!-- NEWS -->
+<a id="news" class="anchor" ></a>
+<h2><i class="fa fa-newspaper"></i><span>NEWS</span></h2>
+
+ <div id="sentence">
+   21'4/2
+  <br>本日臨時休業させていただきます。  
+  <br>
+  <br>21'4/1
+  <br>新作！苺のミルクコッペの販売を開始しました。  
+
+ </div>
+
+<br><br><br></br>
+
+
+<!-- MENU -->
+<a id="menu" class="anchor" ></a>
+<h2><i class="fa fa-utensils"></i><span>MENU</span></h2>
+
+<div id="picArea">
+	<img src="img/20210330095749.jpg">
+ <p id="item">***レーズンパン***</p>
+ <p id="text">バニラの香りとたっぷりレーズンがおすすめ<br>朝食はもちろん、ティータイムにも</p>
+</div>
+
+<br><br>
+
+<div id="picArea">
+   <img src="img/20210407102709.jpg">
+ <p id="item">***クロワッサン***</p>
+ <p id="text">バターをリッチに使いました<br>27層の生地でバリバリ食感がポイントです</p>
+</div>
+
+
+
+<br><br><br><br><br></br>
+
+
+<!-- CONTACT -->
+<a id="contact" class="anchor" ></a>
+<h2><i class="fas fa-paper-plane"></i><span>CONTACT</span></h2>
+
+ <form action="https://docs.google.com/forms/d/e/1FAIpQLSeYkWYUPQG07_kdTwFS6hXrdSxuw9KHG-LH2pcaTjaQjdXvhA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" autocomplete="off">      
+
+  <b>お名前(必須)</b>
+   <input name="entry.13022890" type="text" class="feedback-input" placeholder="山王 太郎" required=""/>   
+
+  <b>メールアドレス</b>
+   <input name="entry.425489263" type="email" class="feedback-input" placeholder="example.com" />
+
+  <b>電話番号(必須)</b>
+   <input name="entry.1505545724" type="tel" class="feedback-input" placeholder="090xxxxxxxx" required=""/>
+
+  <b>お問合せ・ご注文内容</b>
+   <textarea name="entry.1189322346" class="feedback-input" autocomplete="off" placeholder="お問合せやご注文内容などご記入下さい"></textarea>
+
+   <input type="submit" value="送信"/>
+ </form>
+
+<script type="text/javascript">var submitted = false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='../ThanksPage/index.html';}"></iframe>
+
+
+</div>
+
+</body>
+</html>index
