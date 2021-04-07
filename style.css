@@ -263,27 +263,28 @@ textarea {
   resize:vertical;
 }
 
-
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 40%;
+
   text-align: center;
+
   background:#CC6666;
   border-radius:5px;
   border:0;
+  cursor:pointer;
   color:white;
   font-size:18px;
   padding-top:5px;
   padding-bottom:5px;
-/*  transition: all 0.3s; */
-/*  margin: -4px 30%; */
+  transition: all 0.3s;
+  margin: -4px 30%;
   font-weight:700;
 }
 
 [type="submit"]:hover {
   background:#CC4949;
 }
-
 
 /*基本文章フォント*/
 #sentence {
