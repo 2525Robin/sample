@@ -267,6 +267,8 @@ textarea {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 30%;
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
   background-color: #CC6666;
   border-radius: 5px;
   border: 0;
