@@ -269,18 +269,16 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  color:white;
-  font-size:18px;
-/*  padding-top:5px; */
-/*  padding-bottom:5px; */
+  background-color: #CC6666;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-size: 18px;
   font-weight:700;
 }
 
 [type="submit"]:hover {
-  background:#CC4949;
+  background-color:#CC4949;
 }
 
 /*基本文章フォント*/
