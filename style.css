@@ -3,6 +3,8 @@ body {
   background-color: #fff;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 /*ヘッダー固定*/
 header {
 	position: fixed;
@@ -229,8 +231,6 @@ a.anchor {
 
 
 /*フォーム*/
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 form {
   max-width:380px;
   margin:15px auto;
@@ -281,11 +281,11 @@ textarea {
 /*  margin: -4px 30%; */
   font-weight:700;
 }
-/*
+
 [type="submit"]:hover {
   background:#CC4949;
 }
-*/
+
 /*基本文章フォント*/
 #sentence {
   text-align: center;
@@ -344,8 +344,6 @@ textarea {
   width: 100%;
   margin: 15% auto;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 [type="back"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
