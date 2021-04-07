@@ -281,11 +281,10 @@ textarea {
   font-weight:700;
 }
 
-/*
 [type="submit"]:hover {
   background-color:#CC4949;
 }
-*/
+
 /*基本文章フォント*/
 #sentence {
   text-align: center;
