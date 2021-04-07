@@ -1,0 +1,325 @@
+body {
+  /*全体背景*/
+  background-color: #fff;
+}
+
+/*ヘッダー固定*/
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+/*ガリュウヘッダー*/
+.h1_1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 25px;
+    color:  #a27e39;		/* 文字色指定 */
+    height: 100px;		/* 高さ指定 */
+    padding:  10px;		/* 余白指定 */
+    background-color: rgba(19,19,70,1); /* 背景色指定 */
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 38px;
+  color:  #a27e39;
+  position: fixed;
+}
+
+/*メニュー横並び*/
+nav{
+  text-align: center;
+}
+nav ul{
+  margin: 10px ;
+  padding: 10px ;
+}
+nav li{
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+  min-width: 70px;
+}
+nav li:not(:last-child){
+  border-right:2px solid #ddd;
+}
+nav a{
+  text-decoration: none;
+  color: #ddd;
+}
+nav a.current{
+  color: #00B0F0;
+  border-bottom:2px solid #00B0F0;
+}
+nav a:hover{
+  color:#F7CB4D;
+  border-bottom:2px solid #F7CB4D;
+}
+
+
+/*top画像*/
+.topback {
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/20210330095741.jpg);
+  background-repeat: no-repeat; 
+  position: relative;
+  width: 100%;
+  height: 570px;
+}
+
+/*画像を暗く表示*/
+.black {
+  height: 570px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+/*店舗情報のテキスト*/
+.topback b {
+  position: absolute;
+  font-family: 'Kiwi Maru', serif;
+  font-size: 12px;
+  color:  #fff;
+  text-align: left;
+  line-height: 18px;
+  margin: 470px auto auto 30px;
+}
+
+
+/*ロゴ*/
+.plate {
+  margin: auto auto;
+  background-color: #222;
+  height: 140px;
+}
+
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+
+/*ロゴ背景*/
+.script {
+  background-color: #222;
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  z-index: 0;
+
+  top: 10px;
+}
+
+/*ロゴ上下中央部分*/
+.script span {
+  background-color: #222;
+  padding: 0 0.6em;
+}
+
+.script::before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 10%;
+  width: 80%;
+  border-bottom: 3px solid #fff;
+}
+
+.text1 {
+  font-size: 30px;
+}
+.text2 {
+  font-size: 44px;
+}
+
+
+
+/*見出し枠*/
+h2 {
+  position: relative;
+  padding: 1.5rem;	/*見出し縦幅*/
+  text-align: center;
+  left: 25%;			/*見出し枠幅*/
+  width: 50%;			/*見出し枠幅*/
+  border: 2px solid #000;
+  background: #fff;
+  margin: 0;		/*見出し位置*/
+  margin-bottom: 10px;
+}
+
+h2:before,
+h2:after {
+  position: absolute;
+  content: '';
+}
+
+h2:before {
+  top: -40px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: #fff;
+}
+
+h2:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+
+/*見出しアイコン*/
+h2 i {
+  font-family: FontAwesome;
+  font-size: 2rem;
+  line-height: 60px;
+  position: absolute;
+  z-index: 1;
+  top: -28px;		/*アイコン位置*/
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 60px;
+  text-align: center;
+}
+
+h2 span {
+  position: relative;
+  z-index: 1;
+}
+
+
+/*アンカー位置固定*/
+a.anchor {
+   display: block;
+   position: relative;
+   top: -200px;
+   visibility: hidden;
+}
+
+
+/*フォーム*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form {
+  max-width:380px;
+  margin:15px auto;
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 10px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus {
+  border:2px solid #CC4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 40%;
+
+  text-align: center;
+
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+  padding-top:5px;
+  padding-bottom:5px;
+  transition: all 0.3s;
+  margin: -4px 30%;
+  font-weight:700;
+}
+
+[type="submit"]:hover {
+  background:#CC4949;
+}
+
+/*基本文章フォント*/
+#sentence {
+  text-align: center;
+  font-family: 'Kiwi Maru', serif;
+  font-size: 18px;
+  color: gray;
+}
+
+
+
+/*Menu画像*/
+#picArea {
+    width: 100%;
+    margin-bottom: 18px;
+    padding:2px;
+    text-align: center;
+}
+
+#picArea img {
+    width: 60%;
+}
+
+#text {
+    width: 100%;
+    margin-left : auto;
+    margin-right: auto;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 18px;
+}
+
+#item {
+    width: 60%;
+    margin-left : auto;
+    margin-right: auto;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+    font-weight:500;
+}
