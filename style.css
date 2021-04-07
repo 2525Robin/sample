@@ -267,7 +267,7 @@ textarea {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 40%;
   text-align: center;
-  background-color:#CC6666;
+  background:#CC6666;
   border-radius:5px;
   border:0;
   color:white;
@@ -280,7 +280,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-  background-color:#CC4949;
+  background:#CC6666;
 }
 
 
