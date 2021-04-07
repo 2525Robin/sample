@@ -1,6 +1,6 @@
 body {
   /*全体背景*/
-  background-color: #fff;
+/*  background-color: #fff; */
 }
 
 /*ヘッダー固定*/
@@ -262,7 +262,7 @@ textarea {
   resize:vertical;
 }
 
-/*
+
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 40%;
@@ -274,7 +274,7 @@ textarea {
   font-size:18px;
   padding-top:5px;
   padding-bottom:5px;
-/*  transition: all 0.3s;
+/*  transition: all 0.3s; */
   margin: -4px 30%;
   font-weight:700;
 }
@@ -282,24 +282,6 @@ textarea {
 [type="submit"]:hover {
   background-color:#CC4949;
 }
-*/
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  text-align: center;
-  width: 10%;
-  background-color:#CC6666;
-  border-radius:5px;
-  border:0;
-  color:white;
-  font-size:15px;
-  font-weight:700;
-}
-
-[type="submit"]:hover {
-   background:#CC4949;
-}
-
 
 /*基本文章フォント*/
 #sentence {
